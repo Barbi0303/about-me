@@ -44,7 +44,7 @@ table {
 	border-spacing: 0;
 }
 
-/* end of CSS reset */
+/* positioning */
 
 * {
   box-sizing: border-box;
@@ -54,6 +54,7 @@ table {
   width: 414px;
   max-width: calc(100vw - 10px);
   height: 736px;
+  margin-top: 140px;
 }
 
 body {
@@ -61,6 +62,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: blue;
 }
 
 .head, .contant {
@@ -72,14 +74,63 @@ body {
   margin: 0 auto;
 }
 
+h1, h2 {
+  line-height: 1.5rem;
+}
+
+.name-headline {
+  color: hsla(220, 100%, 30%);
+  margin-top: 1rem;
+}
+
 img {
-  width: 120px;
-  height: 120px;
+  width: 8rem;
+  height: 8rem;
   border-radius: 50%;
+  padding: 0.05rem;
+  background-color: #665;
+  margin-top: -4rem;
+}
+
+/* contact links */
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 2%;
+}
+
+li {
+  display: inline;
+  padding: 5%;
+}
+
+/* end of contact links */
+
+.head, .about-me {
+  margin-bottom: 7%;
 }
 
 .content {
-  background-color: yellow;
+  padding: 10% 5%
 }
 
-j
+p, h2 {
+  color: hsla(220, 100%, 30%);
+}
+
+#strong {
+  font-weight: bold;
+  text-align: center;
+}
+
+body {
+  background: url(assets/background1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profile-card {
+  background-color: hsla(210, 100%, 80%, .6);
+  border-radius: 1rem;
+  height: 70vh;
+}
