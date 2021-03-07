@@ -92,15 +92,6 @@ img {
   margin-top: -4rem;
 }
 
-.language {
-  position: relative;
-  left: 92%;
-  top: -48%;
-  color: yellow;
-  font-size: 120%;
-}
-
-
 /* contact links */
 
 ul {
@@ -179,6 +170,7 @@ i:hover {
     margin-top: -1%;
     font-size: 120%;
     line-height: 120%;
+    margin: 0 auto;
   }
   
   .contact {
@@ -191,13 +183,5 @@ i:hover {
   
   h1 {
     font-size: 110%;
-  }
-  
-  .language {
-  position: relative;
-  left: 92%;
-  top: -48%;
-  color: yellow;
-  font-size: 120%;
   }
 }
