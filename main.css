@@ -92,12 +92,14 @@ img {
   margin-top: -4rem;
 }
 
-a {
-  margin-top: -47%;
-  position: absolute;
-  right: 5%;
+.language {
+  position: relative;
+  left: 92%;
+  top: -48%;
+  color: yellow;
   font-size: 120%;
 }
+
 
 /* contact links */
 
@@ -189,5 +191,13 @@ i:hover {
   
   h1 {
     font-size: 110%;
+  }
+  
+  .language {
+  position: relative;
+  left: 92%;
+  top: -48%;
+  color: yellow;
+  font-size: 120%;
   }
 }
