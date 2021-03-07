@@ -50,16 +50,6 @@ table {
   box-sizing: border-box;
 }
 
-.profile-card {
-  width: 100%;
-  margin: 0 auto;
-  max-width: calc(100vw - 10px);
-  height: 80%;
-  margin-top: 8rem;
-  background-color: hsla(210, 100%, 80%, .6);
-  border-radius: 1rem;
-}
-
 body {
   display: flex;
   justify-content: center;
@@ -68,11 +58,18 @@ body {
   background-color: blue;
 }
 
-.head, .contant {
-  text-align: center;
+.profile-card {
+  width: 100%;
+  margin: 0 auto;
+  max-width: calc(100vw - 10px);
+  height: 80%;
+  margin-top: 20%;
+  background-color: hsla(210, 100%, 80%, .6);
+  border-radius: 1rem;
 }
 
-.head, .content {
+.head, .contant {
+  text-align: center;
   width: 90%;
   margin: 0 auto;
 }
@@ -93,6 +90,13 @@ img {
   padding: 0.05rem;
   background-color: #665;
   margin-top: -4rem;
+}
+
+a {
+  margin-top: -47%;
+  position: absolute;
+  right: 5%;
+  font-size: 120%;
 }
 
 /* contact links */
@@ -136,4 +140,54 @@ body {
 img:hover {
   transform: scale(1.1);
   transition: all 0.5s case-in-out;
+}
+
+i:hover {
+  transform: scale(1.5);
+  transition: all 0.5s case-in-out;
+}
+
+  hr {
+    width: 90%;
+    border-top: 2px solid hsla(220, 100%, 30%);
+  }
+
+/* responsive */
+
+@media screen and (min-width: 381px) and (max-width: 446px) {
+  .profile-card {
+    height: 85%;
+    background-color: hsla(210, 100%, 80%, .6);
+  }
+}
+
+@media (max-width: 380px) {
+  .profile-card {
+    height: 90%;
+    margin-top: 45%;
+    font-size: small;
+  }
+}
+  
+@media (min-width: 1024px) {
+  .profile-card {
+    width: 75%;
+    height: 78%;
+    background-color: hsla(210, 100%, 80%, .6);
+    margin-top: -1%;
+    font-size: 120%;
+    line-height: 120%;
+  }
+  
+  .contact {
+    margin-top: 3%;
+  }
+  
+  #strong {
+    font-size: 165%;
+  }
+  
+  h1 {
+    font-size: 110%;
+  }
 }
