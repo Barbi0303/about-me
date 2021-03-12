@@ -165,7 +165,7 @@ i:hover {
 @media (min-width: 1024px) {
   .profile-card {
     width: 75%;
-    height: 78%;
+    height: 80%;
     background-color: hsla(210, 100%, 80%, .6);
     margin-top: -1%;
     font-size: 120%;
